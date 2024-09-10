@@ -1,0 +1,75 @@
+[{
+    "investor_username": "james_investor",
+    "investor_password": "investorpass",
+    "investor_name": "James Investor",
+    "investor_email": "james.investor@example.com",
+    "investor_location": "New York, NY",
+    "investor_adhaar_no": "1234-5678-9012",
+    "investor_phone_no": "123-456-7890",
+    "investor_income": "$150,000",
+    "investor_website": "https://www.jamesinvestor.com",
+    "investor_linkedIn": "https://www.linkedin.com/in/jamesinvestor",
+    "investor_twitter": "https://twitter.com/jamesinvestor",
+    "investor_instagram": "https://www.instagram.com/jamesinvestor"
+  },
+  
+  {
+    "investor_username": "susan_investor",
+    "investor_password": "susanpass",
+    "investor_name": "Susan Investor",
+    "investor_email": "susan.investor@example.com",
+    "investor_location": "Los Angeles, CA",
+    "investor_adhaar_no": "9876-5432-1098",
+    "investor_phone_no": "987-654-3210",
+    "investor_income": "$200,000",
+    "investor_website": "https://www.susaninvestor.com",
+    "investor_linkedIn": "https://www.linkedin.com/in/susaninvestor",
+    "investor_twitter": "https://twitter.com/susaninvestor",
+    "investor_instagram": "https://www.instagram.com/susaninvestor"
+  },
+  
+  {
+    "investor_username": "michael_investor",
+    "investor_password": "michaelpass",
+    "investor_name": "Michael Investor",
+    "investor_email": "michael.investor@example.com",
+    "investor_location": "Chicago, IL",
+    "investor_adhaar_no": "5555-1234-5678",
+    "investor_phone_no": "555-123-4567",
+    "investor_income": "$250,000",
+    "investor_website": "https://www.michaelinvestor.com",
+    "investor_linkedIn": "https://www.linkedin.com/in/michaelinvestor",
+    "investor_twitter": "https://twitter.com/michaelinvestor",
+    "investor_instagram": "https://www.instagram.com/michaelinvestor"
+  },
+  
+  {
+    "investor_username": "linda_investor",
+    "investor_password": "lindapass",
+    "investor_name": "Linda Investor",
+    "investor_email": "linda.investor@example.com",
+    "investor_location": "Boston, MA",
+    "investor_adhaar_no": "1111-2222-3333",
+    "investor_phone_no": "111-222-3333",
+    "investor_income": "$100,000",
+    "investor_website": "https://www.lindainvestor.com",
+    "investor_linkedIn": "https://www.linkedin.com/in/lindainvestor",
+    "investor_twitter": "https://twitter.com/lindainvestor",
+    "investor_instagram": "https://www.instagram.com/lindainvestor"
+  },
+  
+  {
+    "investor_username": "daniel_investor",
+    "investor_password": "danielpass",
+    "investor_name": "Daniel Investor",
+    "investor_email": "daniel.investor@example.com",
+    "investor_location": "Seattle, WA",
+    "investor_adhaar_no": "7777-8888-9999",
+    "investor_phone_no": "777-888-9999",
+    "investor_income": "$300,000",
+    "investor_website": "https://www.danielinvestor.com",
+    "investor_linkedIn": "https://www.linkedin.com/in/danielinvestor",
+    "investor_twitter": "https://twitter.com/danielinvestor",
+    "investor_instagram": "https://www.instagram.com/danielinvestor"
+  }
+  ]

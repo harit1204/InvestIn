@@ -1,0 +1,105 @@
+.card{
+    position: relative;
+    padding: 10px;
+    border-radius: 15px;
+    /* border: 1px solid rgba(0,0,0,0.3); */
+    min-width: 500px;
+    max-width: 500px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+
+}
+
+.upper-card{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.upper-card .name-wrapper {
+    width: fit-content;
+}
+.upper-card .name-wrapper .name{
+    font-size: 30px;
+    font-family: 'Gilroy-semibold';
+
+}
+
+.upper-card .location-wrapper {
+    margin-bottom: 10px;
+}
+
+.upper-card .location-wrapper .location{
+    font-size: 20px;
+    font-family: 'Gilroy-light';
+}
+
+.upper-card .description{
+    margin-bottom: 10px;
+
+}
+.upper-card .description span{
+    font-size: 15px;
+    font-family: 'Gilroy-light';
+    font-weight: 100;
+}
+
+
+.details-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-wrapper > div {
+    font-family: 'Gilroy-light';
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.upper-card .view-btn {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+
+
+.upper-card .view-btn button{
+    
+    background-color: black;
+    color: white;
+    min-width: 100px;
+    max-width: 100px;
+    border-radius: 30px;
+    padding: 10px 10px;
+    font-size: 19px;
+    font-family: 'Gilroy-light';
+    transition: 0.2s;
+}
+
+.upper-card .view-btn .sent{
+    background-color: lightgrey;
+    color: black;
+
+}
+
+.view-btn .connect.friends{
+    background-color: rgba(0, 0, 0, 0.24);
+    color: white;
+}
+
+

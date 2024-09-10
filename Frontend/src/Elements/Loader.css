@@ -1,0 +1,15 @@
+
+
+.text-wrapper{
+    margin: 0 auto;
+}
+
+.text-wrapper .text{
+    font-size: 35px;
+    font-family: 'Gilroy-semibold';
+    width: fit-content;
+    margin-top: 60px;
+    min-width: 800px;
+    max-width: 800px;
+    text-align: center;
+}

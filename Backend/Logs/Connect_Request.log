@@ -1,0 +1,34 @@
+10/29/23 07:23:46 PM --> INFO : Username nisarg123 with id = I3 have sent a connect request to username = patel123 with id = B2. 
+10/29/23 07:23:46 PM --> INFO : Username nisarg123 with id = I3 have sent a connect request to username = patel123 with id = B2. 
+10/29/23 07:24:48 PM --> INFO : Username nisarg123 with id = I3 have sent a connect request to username = kais321 with id = I6. 
+10/29/23 07:24:48 PM --> INFO : Username nisarg123 with id = I3 have sent a connect request to username = kais321 with id = I6. 
+10/29/23 07:24:48 PM --> INFO : Username nisarg123 with id = I3 have sent a connect request to username = kais321 with id = I6. 
+10/29/23 07:25:09 PM --> INFO : Username nisarg123 with id = I3 have sent a connect request to username = kaniket with id = I8. 
+10/29/23 07:25:18 PM --> INFO : Username nisarg123 with id = I3 have sent a connect request to username = p with id = I9. 
+10/29/23 07:25:18 PM --> INFO : Username nisarg123 with id = I3 have sent a connect request to username = p with id = I9. 
+10/29/23 07:41:02 PM --> INFO : Username existing_iota with id = I5 accepted the connect request of username karan324 with id = I1 
+10/29/23 07:41:15 PM --> INFO : Username existing_iota with id = I5 have sent a connect request to username = pinal123 with id = B1. 
+10/29/23 07:41:36 PM --> INFO : Username pinal123 with id = B1 accepted the connect request of username nisarg123 with id = I3 
+10/29/23 07:41:36 PM --> INFO : Username pinal123 with id = B1 accepted the connect request of username nisarg123 with id = I3 
+10/29/23 07:45:43 PM --> ERROR : Error : Username pinal123 with id = B1 REJECTED the connect request of username existing_iota with id = I5 !!!
+10/29/23 07:53:29 PM --> INFO : Username nisarg123 with id = I3 have sent a connect request to username = f with id = I11. 
+10/30/23 10:31:45 AM --> INFO : Username n with id = I12 have sent a connect request to username = existing_iota with id = I5. 
+10/30/23 10:31:58 AM --> INFO : Username n with id = I12 have sent a connect request to username = karan324 with id = I1. 
+10/30/23 10:31:58 AM --> INFO : Username n with id = I12 have sent a connect request to username = karan324 with id = I1. 
+10/30/23 10:32:09 AM --> INFO : Username karan324 with id = I1 ACCEPTED  the connect request of username n with id = I12 
+10/30/23 02:18:33 PM --> INFO : karan324 with id = I1 have sent a connect request to username = l with id = I10. 
+11/01/23 07:25:00 PM --> INFO : Naman123 with id = I14 have sent a connect request to username = Naman123 with id = I14. 
+11/01/23 07:25:17 PM --> INFO : Naman123 with id = I14 ACCEPTED  the connect request of username Naman123 with id = I14 
+11/01/23 08:30:54 PM --> INFO : Naman123 with id = I14 have sent a connect request to username = pinal123 with id = B1. 
+11/01/23 08:31:03 PM --> INFO : pinal123 with id = B1 ACCEPTED  the connect request of username Naman123 with id = I14 
+11/01/23 10:46:48 PM --> INFO : n with id = I12 have sent a connect request to username = denil123 with id = I15. 
+11/01/23 10:46:48 PM --> INFO : n with id = I12 have sent a connect request to username = nisarg123 with id = I3. 
+11/01/23 10:46:48 PM --> INFO : n with id = I12 have sent a connect request to username = nisarg123 with id = I3. 
+11/01/23 10:46:49 PM --> INFO : n with id = I12 have sent a connect request to username = kd with id = I4. 
+11/01/23 10:46:49 PM --> INFO : n with id = I12 have sent a connect request to username = kd with id = I4. 
+11/01/23 10:46:49 PM --> INFO : n with id = I12 have sent a connect request to username = kd with id = I4. 
+11/01/23 11:45:54 PM --> INFO : denil123 with id = I15 ACCEPTED  the connect request of username n with id = I12 
+11/02/23 10:02:09 AM --> INFO : Naman123 with id = I14 have sent a connect request to username = karan324 with id = I1. 
+11/02/23 10:02:11 AM --> INFO : Naman123 with id = I14 have sent a connect request to username = l with id = I10. 
+11/02/23 10:02:11 AM --> INFO : Naman123 with id = I14 have sent a connect request to username = l with id = I10. 
+11/02/23 10:02:42 AM --> INFO : karan324 with id = I1 ACCEPTED  the connect request of username Naman123 with id = I14 

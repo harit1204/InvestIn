@@ -1,0 +1,215 @@
+
+
+.dashboard-wrapper{
+    display: flex;    
+    width: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.dashboard-left{
+    background-color: rgb(249, 249, 249);
+    flex: 1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    justify-content: space-between;
+    width: 30vw;
+    padding: 28px 0 50px 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+
+
+.dashboard-left .logo{
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dashboard-left .logo  span{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Gilroy-semibold';
+    letter-spacing: 1.5px;
+
+}
+
+.dashboard-left .left-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* To Select the immediate children of a particular element then you can use > Direct Child Selector  */
+.dashboard-left .left-menu > div{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    font-family: 'Gilroy-light';
+    cursor: pointer;
+
+}
+
+
+.friends{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notification{
+    top: 40%;
+    transform: translate(0,-50%);
+    right: -20px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    height: 19px;
+    width: 19px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Gilroy-light';
+}
+
+.notification.off{
+    display: none;
+}
+.dashboard-left .account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.dashboard-left .account .name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.dashboard-left .account .user-name{
+    font-weight: 400;
+    padding: 0;
+    font-family: 'Gilroy-semibold';
+    font-size: 25px;
+    width: fit-content;
+}
+
+
+.dashboard-left .account .user-id{
+    font-family: 'Gilroy-light';
+    font-size: 15px;
+    top: -30px;
+}
+
+
+.dashboard-right{   
+    background-color: white;
+    flex: 4;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px 0 50px;
+    margin-left: 30vw;
+    width: auto;
+    position: relative;
+
+}
+
+.dashboard-right .menu-details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 20px 20px 10px 20px;
+}
+
+
+
+
+.dashboard-right .menu-details .menu-title{
+    font-size: 28px;
+    font-family: 'Gilroy-semibold';
+}
+
+
+
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    gap: 40px;
+    
+}
+
+
+@media (min-width: 1280px) {
+    .dashboard-left{
+        width: 250px;
+    }
+    .dashboard-right{
+        margin-left: 250px;
+    }
+}
+
+
+
+.graphs{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.graphs .line{
+    flex: 1;
+}
+
+.graphs .pie{
+    flex: 1;
+}
+
+.graphs .bar{
+    flex: 1;
+}
+
+
+
+.score-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100vh;
+}
+
+.score-wrapper .score-title{
+    font-size: 35px;
+    font-family: 'Gilroy-semibold';
+    text-align: center;
+}
+
+.profile-graph{
+    padding-left: 40px;
+}
+.score-title span{
+    font-size: 50px;
+    color: green;
+}
+

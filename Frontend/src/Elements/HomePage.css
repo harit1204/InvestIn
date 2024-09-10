@@ -1,0 +1,160 @@
+.homepage-wrapper{
+    display: flex;
+}
+
+
+.homepage-wrapper .home-left{
+    flex: 1;
+    background-color: 	rgb(0, 179, 179);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-left span{
+    font-size: 120px;
+    font-family: 'Gilroy-medium';
+    color: black;
+}
+
+
+.homepage-wrapper .home-right{
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    height: 100vh;
+
+}
+
+.home-right .center-div{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+
+    
+}
+
+
+.home-right .home-title{
+    font-size: 50px;
+    text-align: left;
+    font-family: 'Gilroy-semibold';
+}
+
+.home-right .sign-up{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.home-right .sign-up .sign-up-title{
+    font-size: 28px;
+    font-family: 'Gilroy-medium';
+    
+}
+
+.home-right .sign-up .buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.5px;
+}
+
+.buttons .line::before{
+    content: "";
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    position: absolute;
+    min-width: 300px;
+    max-width: 300px;
+    border-bottom: 1px solid black;
+}
+.buttons .or{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: fit-content;
+    background-color:white ;
+    padding: 0 10px;
+    font-family: 'Gilroy-light';
+
+}
+.buttons .business-btn,.login .login-btn button{
+    min-width: 300px;
+    max-width: 300px;
+    background-color: transparent;
+    color: black;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0.05);
+    padding: 10px 0;
+    font-family: 'Gilroy-light';
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    letter-spacing: 0.5px;
+    
+
+}
+
+.buttons .business-btn:hover,  .buttons .invest-btn:hover{
+    box-shadow: none;
+}
+
+.buttons .investor-btn{
+    min-width: 300px;
+    max-width: 300px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0.5);
+    padding: 10px 0;
+    font-family: 'Gilroy-light';
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.buttons .investor-btn:hover{
+    box-shadow: none;
+}
+
+.home-right .login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.login .login-title{
+    font-size: 20px;
+    font-family: 'Gilroy-light';
+    font-weight: 100;
+
+}
+
+.login-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.login .login-btn button:hover{
+    box-shadow: none;
+}

@@ -1,0 +1,83 @@
+.form-wrapper {
+  padding: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.form-wrapper .form-title {
+  font-size: 50px;
+  font-family: "Gilroy-semibold";
+  margin-bottom: 30px;text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.form > div:not(:nth-last-child(-n + 2)) {
+  display: flex;
+  padding-bottom: 70px;
+  border-bottom: 1px solid gray;
+}
+
+.social-profiles {
+  display: flex;
+  padding-bottom: 70px;
+}
+
+.about-heading, .business-heading, .social-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-heading .about-subtitle, .business-heading .business-subtitle, .social-heading .social-subtitle {
+  font-size: 15px;
+  font-family: "Gilroy-light";
+  min-width: 300px;
+  max-width: 300px;
+}
+
+
+.about .about-heading,
+.about-business .business-heading,
+.social-profiles .social-heading {
+  flex: 1;
+  font-size: 25px;
+  font-family: "Gilroy-semibold";
+}
+
+.about .about-details,
+.about-business .business-details,
+.social-profiles .social-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.business-submit-btn,
+.investor-submit-btn {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.form .business-submit-btn button,
+.form .investor-submit-btn button {
+  border: 1px solid black;
+  border-radius: 30px;
+  min-width: 200px;
+  padding: 10px 0;
+  max-width: 300px;
+  font-family: "Gilroy-light";
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
